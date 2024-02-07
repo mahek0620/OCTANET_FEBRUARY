@@ -1,0 +1,257 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+}
+.head1{
+    padding-bottom: 150px;
+}
+.bg-img{
+    background-image: cover;
+    height:725px ;
+    width: 99.5%;
+    z-index: -1;
+    position: absolute;
+}
+.header{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 225px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+button{
+    background-color: transparent;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(170, 165, 165);
+}
+
+.lang{
+    color:white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    padding-right: 10px;
+}
+.iconimg{
+    color: white;
+    height: 50px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.translateimg{
+    height: 10px;
+    width: 10px;
+    padding: 20px auto;
+    padding-right: 5px;
+}
+
+.translate{
+    padding: 3px 10px;
+    border-radius: 7px;
+    /* background-color:rgb(94, 91, 91); */
+    background-color: transparent;
+}
+
+.signin{
+    padding: 5px 15px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.content{
+    text-align: center;
+    color: rgb(243, 238, 238);
+    font-weight: 500;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    
+}
+h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.emailaddress{
+    padding: 20px 170px;
+    padding-left: 15px;
+    color: white;
+    font-weight: 500;
+    background-color: rgba(32, 30, 30, 0.91);
+    border: 0.5px solid rgb(72, 69, 69);
+    border-radius: 5px;
+}
+
+.getstarted{
+    text-align: center;
+    background-color: red;
+    font-size:13px;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+.getstarted:hover{
+    background-color: rgb(188, 15, 15);
+}
+
+.grow{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card1, .card2, .card3, .card4 ,.doubts{ 
+    background-color: black;
+    z-index: -1;
+    color: white;
+    border-top: 10px solid grey;
+    padding: 50px;
+}
+
+.card1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: start;
+    align-items: center;
+    padding: 25px 350px 50px;
+}
+
+.card1 video{
+    position: relative;
+    
+    width: 100%;
+    height: 60%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    left: 50px;
+    z-index: -1;
+
+}
+
+.card1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card2 ,.card4{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: start;
+    align-items: center;
+    padding: 25px 200px 50px;
+    justify-content: space-evenly;
+}
+
+
+
+.card3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 300px 100px;
+}
+
+.card3 video{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    left: 45px;
+    top:-75px;
+    z-index: -1;
+
+}
+
+.card3 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.doubts{
+    border-top: 10px solid grey;
+    
+}
+
+.doubts h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 37, 37);
+    padding-top: 25px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+
+.box1:hover{
+    background-color: rgb(71, 70, 70);
+}
+
+.box1 span, .box1 h3{
+    font-size: 30px;
+}
+
+.doubts p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.start{
+    text-align: center;
+}
+
+footer{
+    border-top: 10px solid grey;
+    background-color: black;
+    z-index: -1;
+    color: rgb(206, 205, 205);
+    padding: 70px 200px 100px 200px;
+}
+
+footer p{
+    font-size: 20px;
+    
+}
+footer p a{
+    color: rgb(186, 186, 186);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.link p a{
+    color: rgb(186, 186, 186);
+}
